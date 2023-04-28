@@ -1,0 +1,62 @@
+/* Kod wygenerowany z pomocą ChatGPT :) */
+
+/* Form container */
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Label styles */
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Input styles */
+input[type='text'],
+input[type='number'],
+textarea {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Submit button styles */
+input[type='submit'] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+/* Required field indicator */
+input[required]::after {
+  content: ' *';
+  color: #ff0000;
+}
+
+/* Error list styles */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto;
+  margin-top: 5px;
+  max-width: 400px;
+}
+
+/* Error list item styles */
+ul li {
+  color: #ff0000;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
